@@ -1,0 +1,2 @@
+# Artistic AI
+# artistic.ai
