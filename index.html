@@ -276,7 +276,7 @@
             We tackle the following challenges:
             <ul>
                 <li>
-                    <mark>Preparing the Next Generation of robotics for Limited series</mark>. Many products today
+                    <mark>Preparing the Next Generation of Robotics for Limited series</mark>. Many products today
                     are costumized to the customer needs. This requires a new generation of robotics that can handle the 
                     limited series production.
                     <br>
@@ -306,93 +306,12 @@
 
         <h2>What we sell?</h2>
         <p>
-            <mark>We sell a robotic cell desk.</mark> Together with a digital twin an automated disassembly
+            <mark>We sell a robotic cell software solution.</mark> Together with a digital twin, an automated assembly or disassembly
              process is created. The digital twin is a 3D model of the product, and the robotic 
-             cell is a robotic arm
-             that can disassemble the product.
+             cell is a robotic arm that can manipulate the product.
             <br>
-            <center>
-            <img src="sketch_of_disassembly_table.png" alt="Reman Cell" width="50%">
-            <br>
-            <img src="sketch_of_disassembly_UI.png" alt="Reman Digital Twin" width="50%">
-            </center>
         </p>
 
-        <h2>For inquiries, please contact us.</h2>
-        <form id="inquiryForm" class="max-w-lg mx-auto p-4">
-            <div class="mb-4">
-                <label for="name" class="block mb-2">Name:</label>
-                <input type="text" id="name" name="name" required 
-                    class="w-full p-2 border border-gray-300 rounded">
-            </div>
-
-            <div class="mb-4">
-                <label for="role" class="block mb-2">Role:</label>
-                <input type="text" id="role" name="role" required
-                    class="w-full p-2 border border-gray-300 rounded">
-            </div>
-
-            <div class="mb-4">
-                <label for="email" class="block mb-2">Email:</label>
-                <input type="email" id="email" name="email" required
-                    class="w-full p-2 border border-gray-300 rounded">
-            </div>
-
-            <div class="mb-4">
-                <label for="phone" class="block mb-2">Phone:</label>
-                <input type="tel" id="phone" name="phone" required
-                    class="w-full p-2 border border-gray-300 rounded">
-            </div>
-
-            <div class="mb-4">
-                <label for="inquiry" class="block mb-2">Inquiry:</label>
-                <textarea id="inquiry" name="inquiry" rows="4" required
-                    class="w-full p-2 border border-gray-300 rounded"></textarea>
-            </div>
-
-            <button type="submit" 
-                class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800">
-                Submit
-            </button>
-        </form>
-        <script type="text/javascript">
-            window.onload = function() {
-                document.getElementById('inquiryForm').addEventListener('submit', function(event) {
-                    event.preventDefault();
-                    // these IDs from the previous steps
-                    emailjs.sendForm('service_ja62z1g', 'template_7c61tok', this)
-                        .then(() => {
-                            console.log('SUCCESS!');
-                        }, (error) => {
-                            console.log('FAILED...', error);
-                        });
-                });
-            }
-        </script>
-        <!--
-        <center>
-            <a href="mailto:renabler.ai@gmail.com">renabler.ai@gmail.com</a>
-        </center>
--->
-
-        <!--
-        <h2>Founding Team</h2>
-        <p class="team-members">
-            <span bio-name="Dotan Di Castro"
-                data-bio="Former Leader of Bosch Haifa research group. "><a
-                    href="https://www.linkedin.com/in/alexgartrell" target="_blank">Alex Gartrell</a></span>,
-        </p>
-        -->
-
-        <!-- Hover Title Display -->
-        <!--
-        <div id="hover-title" class="mx-auto mt-4 p-4 bg-white border border-gray-200 rounded transition">
-        </div>
-        -->
-
-
-
-    </main>
 
     <!-- Footer -->
     <footer class="footnote">
